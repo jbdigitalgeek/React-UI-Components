@@ -4,10 +4,11 @@ import ImageThumbnail from './ImageThumbnail';
 
 const HeaderTitle = () => {
     return (
-        <div className="Header-Title">
+        <section className="Header-Title">
             <ImageThumbnail />
-            <p>@LambdaSchool<time datetime="2019-01-26"></time></p>
-        </div>
+                <h1>Lambda School</h1>
+            <h2>@LambdaSchool<time dateTime="2019-01-26"></time></h2>
+        </section>
     );
 };
 
