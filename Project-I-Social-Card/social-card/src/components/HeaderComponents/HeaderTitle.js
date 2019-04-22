@@ -1,5 +1,5 @@
 import React from 'react';
-import './Header.css';
+import './Header.scss';
 import ImageThumbnail from './ImageThumbnail';
 
 const HeaderTitle = () => {
@@ -7,7 +7,7 @@ const HeaderTitle = () => {
         <section className="Header-Title">
             <ImageThumbnail />
                 <h1>Lambda School</h1>
-            <h2>@LambdaSchool<time dateTime="2019-01-26"></time></h2>
+            <h2>@LambdaSchool - 26 jan</h2>
         </section>
     );
 };

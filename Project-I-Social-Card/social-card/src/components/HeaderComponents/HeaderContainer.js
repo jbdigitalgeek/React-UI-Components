@@ -1,5 +1,5 @@
 import React from "react";
-import "./Header.css";
+import "./Header.scss";
 import HeaderContent from "./HeaderContent";
 import HeaderTitle from "./HeaderTitle";
 
